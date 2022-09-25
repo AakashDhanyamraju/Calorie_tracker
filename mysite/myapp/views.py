@@ -26,3 +26,6 @@ def delete_consume(request, id):
         consumed_food.delete()
         return redirect('/')
     return render(request, 'myapp/delete.html')
+
+# def add_food(request,id):
+
